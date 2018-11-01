@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Javascrip</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/example1.css">
+</head>
+<body>
+	<div id="container">
+		<div id="maytinh">
+			<table>
+				<tr>
+					<td colspan="5"><input type="text" id="Result"></td>
+				</tr>
+				<tr>
+					<td> <input type="button" value="AC" class="bt"
+						onclick="Result.value=''" > </td>
+					<td> <input type="button" value=" +/- " class="bt">
+
+					</td>
+					<td><input type="button" value="%" class="bt" 
+						onclick="Result.value+=this.value"></td>
+					<td><input type="button" value="/" class="bt1"
+						onclick="Result.value+=this.value"></td>
+				</tr>
+				<tr>
+					<td> 
+						<input type="button" value="7" class="bt" 
+							onclick="Result.value+=this.value">
+					</td>
+					<td> <input type="button" value="8" class="bt"
+					 	onclick="Result.value+=this.value">
+					 </td>
+					<td><input type="button" value="9" class="bt"
+					 onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button" value="*" class="bt1" 
+						onclick="Result.value+=this.value"></td>
+				</tr>
+				<tr>
+					<td> <input type="button" value="4"class="bt" 
+						onclick="Result.value+=this.value">
+					</td>
+					<td> <input type="button"value="5" class="bt" 
+						onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button"value="6" class="bt"
+					 onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button"value="-" class="bt1" 
+						onclick="Result.value+=this.value"></td>
+				</tr>
+				<tr>
+					<td> <input type="button"value="1" class="bt" 
+						onclick="Result.value+=this.value">
+					</td>
+					<td> <input type="button"value="2" class="bt"
+						 onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button"value="3" class="bt"
+						 onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button"value="+" class="bt1" 
+						onclick="Result.value+=this.value"></td>
+				</tr>
+				<tr>
+					<td colspan="2"> <input type="button" value="0" 
+						id="col" onclick="Result.value+=this.value">
+					</td>
+				
+					<td><input type="button"value="," class="bt" 
+						onclick="Result.value+=this.value">
+					</td>
+					<td><input type="button"value="=" class="bt1" 
+						onclick="Result.value=eval(Result.value)">
+					</td>
+				</tr>
+			</table>	
+		</div>	
+	</div>
+	<!-- end container -->
+<script type="text/javascript" src="js/example1.js"></script>
+</body>
+</html>
