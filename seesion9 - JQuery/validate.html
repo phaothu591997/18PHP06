@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Validate </title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" 
-		href="css/validate.css">
+	<title> Validate - JQuery </title>
+	<script src="js/jquery-3.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/validate.css">
+	 <meta charset="UTF-8">
 </head>
 <body>
 	<div id="container">
 		<div id="validate">
-			<form name="login" method="POST" action="#">
+			<form  method="POST" action="#" name="validate" 
+				id="form_login">
 				<h3> Họ và Tên </h3> 
-				<p id="error">  </p>
+				<span id="username_error"></span>
 				<input type="tex" name="username" class="ip"  
 					placeholder="Nhập họ và tên" id="username">
 				<h3> Mật Khẩu</h3>
-				<p id="error1">    </p>
+				<span id="password_error"></span>
 				<input type="password" name="password" 
 					class="ip" placeholder="Nhập mật khẩu" 
 					id="password" >
 				<br>
-				<p id="gt"> </p>	
-				Nam	
-				<input type="radio" name="gioitinh" value="nam" 
-					id="nam">
-				Nữ
-				<input type="radio" name="gioitinh" value="nữ" 
-				class="rd" id="nu">	
-				<br>
-				<input type="submit" name="" value="Login" id="submit" 
-					onclick="checkform()"> 
+				<input type="submit" name="" value="Login" id="submit">
 			</form>
 		</div>
 	</div>

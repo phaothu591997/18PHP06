@@ -1,0 +1,31 @@
+#slider{
+	margin: 0px auto;
+	width: 600px;
+	height: 300px;
+	border: 1px solid #333;
+	position: relative;
+}
+.img-slider{
+	width: 600px;
+	height: 300px;	
+}
+.img-1{
+	width: 600px;
+	height: 300px;	
+}
+.img-btn{
+	width: 130px;
+    height: 77px;
+}
+#prev{
+	text-transform: uppercase;
+	top: 130px;
+	left: 20px;
+	position: absolute;
+}
+#next{
+	text-transform: uppercase;
+	top: 130px;
+	right:20px;
+	position: absolute;
+}

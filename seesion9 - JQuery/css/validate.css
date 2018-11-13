@@ -17,13 +17,13 @@
 	background: #333;
 	color: white;
 }
-#error{
+#username_error{
 	margin: 0% 0% 1% 0%;
     color: red;
     width: 150px;
     height: 20px;
 }
-#error1{
+#password_error{
 	margin: 0% 0% 1% 0%;
 	color: red;
 	width: 192px;
