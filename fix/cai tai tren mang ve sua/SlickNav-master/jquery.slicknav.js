@@ -27,7 +27,7 @@
             afterOpen: function () {},
             afterClose: function () {}
         },
-        mobileMenu1 = 'slicknav',
+        mobileMenu = 'slicknav',
         prefix = 'slicknav',
 
         Keyboard = {
