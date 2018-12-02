@@ -29,3 +29,8 @@
 	right:20px;
 	position: absolute;
 }
+#text-slider{
+	width: 100%;
+	height: 700px;	
+	background:url("../img/slider/3.jpg");
+}
